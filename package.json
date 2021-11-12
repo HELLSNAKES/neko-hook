@@ -1,0 +1,35 @@
+{
+  "name": "neko-hook",
+  "version": "1.0.0",
+  "description": "webhook discord bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node exec.js",
+    "lint": "eslint ./",
+    "lint:fix": "eslint --fix ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HELLSNAKES/neko-hook.git"
+  },
+  "keywords": [
+    "neko"
+  ],
+  "author": "HELLSNAKE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HELLSNAKES/neko-hook/issues"
+  },
+  "homepage": "https://github.com/HELLSNAKES/neko-hook#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "node-fetch": "^2.6.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
