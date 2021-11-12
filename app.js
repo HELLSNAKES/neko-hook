@@ -22,7 +22,7 @@ fetch(nekolife)
             .setTimestamp()
             .setFooter("Neko-Hook by @HELLSNAKE#6851")
         hook.send({ username: config.webhookname, avatarURL: config.hookAvatarUrl, embeds: [embed] })
-        console.log(`Neko-Hook has sent an image to ${config.webhook}`)
+        console.log(`Neko-Hook has sent an image to ${config.webhookurl}`)
         setTimeout(() => {
             console.log("Neko-Hook is restarting...")
             process.exit(2)
