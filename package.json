@@ -23,6 +23,7 @@
   "homepage": "https://github.com/HELLSNAKES/neko-hook#readme",
   "dependencies": {
     "discord.js": "^13.3.1",
+    "express": "^4.17.1",
     "node-fetch": "^2.6.5"
   },
   "devDependencies": {
